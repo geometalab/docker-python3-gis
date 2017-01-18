@@ -18,5 +18,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y\
     gettext\
     virtualenv
 
-RUN pip3 install -U pip
 RUN pip3 install -U honcho
